@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: chai-app
-        image: docker push biswa2204/chai-devops:latest
+        image: biswa2204/chai-devops:latest
         ports:
         - containerPort: 80
         env:
